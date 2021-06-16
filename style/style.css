@@ -12,7 +12,7 @@
 
 body {
     background: var(--preto);
-    color: white;
+    color: gainsboro;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -166,4 +166,51 @@ button span {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-filmes {
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: small;
+}
+
+footer p {
+    color: gray;
+    font-size: x-small;
+}
+
+.footer-container {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+}
+
+.footer-container a{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-container ul {
+    list-style-type: none; 
+  }
+
+.footer-container li {
+    margin: 10px 0px;
+}
+  
+
+
+.footer-container div {
+      display: flex;
+}
+
+.footer-container div div {
+      margin: 0px 20px;
+      width: 150px;
 }
